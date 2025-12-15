@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Noms d'application et écrans principaux -->
+    <string name="app_name">Kids Learning</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_main">Apprentissage des lettres</string>
+    
+    <!-- Boutons et actions -->
+    <string name="back">Retour</string>
+    <string name="back_button">Retour</string>
+    <string name="sound">Son 🔕</string>
+    <string name="clear">Effacer ❌</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="done">Terminé</string>
+    <string name="previous_letter">Lettre précédente</string>
+    <string name="next_letter">Lettre suivante</string>
+    
+    <!-- Titres et en-têtes -->
+    <string name="draw_letter">Dessine la lettre</string>
+    <string name="french_alphabet">Alphabet Français</string>
+    <string name="arabic_alphabet">الحروف العربية</string>
+    <string name="select_letter">Sélectionne une lettre</string>
+    
+    <!-- Messages et instructions -->
+    <string name="select_language">Choisis une langue</string>
+    <string name="draw_instruction">Trace la lettre avec ton doigt</string>
+    <string name="letter_sound_playing">Son de la lettre en cours de lecture…</string>
+    <string name="try_again">Essaie encore !</string>
+    <string name="great_job">Bravo !</string>
+    <string name="perfect">Parfait !</string>
+    <string name="start_drawing">Commence à dessiner ici</string>
+    
+    <!-- Messages d'erreur -->
+    <string name="error_loading_audio">Impossible de charger le son</string>
+    <string name="error_saving_drawing">Erreur : impossible d\'enregistrer le dessin</string>
+    <string name="error_saving_drawing_detail">Le dessin n\'a pas pu être enregistré.\n\nVérifiez :\n- L\'espace de stockage disponible\n- Les permissions de l\'application</string>
+    <string name="error_network">Erreur de connexion réseau</string>
+    <string name="error_timeout">Le délai d\'attente est dépassé</string>
+    <string name="error_loading_data">Erreur lors du chargement de %1$s</string>
+    <string name="error_file_operation">Erreur de fichier : %1$s</string>
+    <string name="error_permission_denied">Permission refusée : %1$s</string>
+    <string name="error_storage_full">Espace de stockage insuffisant</string>
+    <string name="error_unknown">Une erreur inconnue s\'est produite</string>
+    
+    <!-- Noms de lettres (français) -->
+    <!-- Note: Les noms des tableaux sont utilisés dans le code, ne pas les modifier -->
+    <string-array name="french_letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    
+    <!-- Noms de lettres (arabe) -->
+    <!-- Note: L'ordre des lettres suit l'alphabet arabe standard -->
+    <string-array name="arabic_letters">
+        <item>ا</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ي</item>
+    </string-array>
+    
+    <!-- Noms des lettres (pour l'accessibilité) -->
+    <!-- Ces chaînes sont utilisées par le lecteur d'écran -->
+    <string-array name="french_letter_names">
+        <item>a</item>
+        <item>bé</item>
+        <item>cé</item>
+        <item>dé</item>
+        <item>e</item>
+        <item>effe</item>
+        <item>gé</item>
+        <item>hache</item>
+        <item>i</item>
+        <item>ji</item>
+        <item>ka</item>
+        <item>elle</item>
+        <item>emme</item>
+        <item>enne</item>
+        <item>o</item>
+        <item>pé</item>
+        <item>ku</item>
+        <item>erre</item>
+        <item>esse</item>
+        <item>té</item>
+        <item>u</item>
+        <item>vé</item>
+        <item>double vé</item>
+        <item>ixe</item>
+        <item>i grec</item>
+        <item>zède</item>
+    </string-array>
+</resources>

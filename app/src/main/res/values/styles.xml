@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style pour les boutons principaux -->
+    <style name="Widget.EnfantApp.Button.Primary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_primary_background</item>
+        <item name="android:textColor">@color/button_primary_text</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@animator/button_state_list_anim</item>
+    </style>
+
+    <style name="Widget.EnfantApp.Button.Secondary" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/button_secondary_text</item>
+        <item name="android:background">@drawable/btn_secondary_background</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:stateListAnimator">@animator/button_state_list_anim</item>
+    </style>
+
+    <!-- Style pour les cartes -->
+    <style name="Widget.EnfantApp.Card" parent="CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardMaxElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="android:stateListAnimator">@animator/card_state_list_anim</item>
+    </style>
+    
+    <!-- Style pour l'indicateur de progression -->
+    <style name="Widget.EnfantApp.ProgressIndicator" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressTint">@color/colorPrimary</item>
+        <item name="android:progressBackgroundTint">@color/on_surface_light</item>
+        <item name="android:minHeight">4dp</item>
+    </style>
+
+    <!-- Style pour les champs de texte -->
+    <style name="Widget.EnfantApp.TextInputLayout" parent="Widget.AppCompat.EditText">
+        <item name="boxStrokeColor">@color/on_surface_light</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="hintTextColor">@color/on_surface_medium</item>
+        <item name="hintTextAppearance">@style/TextAppearance.EnfantApp.Caption</item>
+        <item name="errorTextAppearance">@style/TextAppearance.EnfantApp.Caption.Error</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="android:textColorHint">@color/on_surface_medium</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+    
+    <!-- Style pour les messages d'erreur -->
+    <style name="TextAppearance.EnfantApp.Caption.Error" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Style pour les titres -->
+    <style name="TextTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="TextSubtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/on_surface_medium</item>
+        <item name="android:letterSpacing">0.5</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <!-- Style pour la barre d'outils -->
+    <style name="Widget.EnfantApp.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Style pour les onglets -->
+    <style name="Widget.EnfantApp.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="tabTextAppearance">@style/TextAppearance.EnfantApp.Tab</item>
+        <item name="tabTextColor">@color/on_surface_medium</item>
+        <item name="tabRippleColor">@color/colorPrimary</item>
+        <item name="tabIndicatorFullWidth">false</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabIndicatorGravity">stretch</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+    </style>
+    
+    <!-- Style pour le texte des onglets -->
+    <style name="TextAppearance.EnfantApp.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <!-- Style pour les boîtes de dialogue -->
+    <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/on_surface</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width</item>
+    </style>
+
+    <!-- Style pour les messages d'erreur -->
+    <style name="TextError">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/error</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <!-- Style pour les indicateurs de chargement -->
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/colorPrimary</item>
+    </style>
+</resources>

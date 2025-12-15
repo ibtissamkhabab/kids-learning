@@ -1,0 +1,164 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème de base (clair) -->
+    <style name="Base.Theme.EnfantApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Couleurs principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Couleurs secondaires -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Couleurs d'erreur -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Couleurs d'arrière-plan -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        
+        <!-- Barre d'état -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Barre de navigation -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        
+        <!-- Formes - Commenté car non utilisé dans Material Components basiques -->
+        <!-- <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.EnfantApp.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.EnfantApp.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.EnfantApp.LargeComponent</item> -->
+        
+        <!-- Typographie -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.EnfantApp.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.EnfantApp.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.EnfantApp.Headline3</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.EnfantApp.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.EnfantApp.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.EnfantApp.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.EnfantApp.Caption</item>
+        
+        <!-- Boutons -->
+        <item name="materialButtonStyle">@style/Widget.EnfantApp.Button</item>
+        
+        <!-- Cartes -->
+        <item name="cardViewStyle">@style/Widget.EnfantApp.CardView</item>
+        
+        <!-- Animation -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <!-- Thème par défaut -->
+    <style name="Theme.EnfantApp" parent="Base.Theme.EnfantApp" />
+    
+    <!-- Apparence des formes - Styles supprimés car non compatibles avec AppCompat -->
+    <!-- Ces styles nécessiteraient Material Components 3 pour fonctionner correctement
+    <style name="ShapeAppearance.EnfantApp.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.EnfantApp.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.EnfantApp.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    -->
+    
+    <!-- Styles de texte -->
+    <style name="TextAppearance.EnfantApp.Headline1" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Headline2" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Headline3" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/on_surface_medium</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/button_primary_text</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/on_surface_light</item>
+    </style>
+    
+    <!-- Styles de composants -->
+    <style name="Widget.EnfantApp.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textAppearance">@style/TextAppearance.EnfantApp.Button</item>
+        <item name="android:background">@drawable/btn_primary_background</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:stateListAnimator">@animator/button_state_list_anim</item>
+    </style>
+
+    <style name="Widget.EnfantApp.CardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardForegroundColor">?attr/colorOnSurface</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardMaxElevation">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="strokeWidth">1dp</item>
+        <!-- shapeAppearance commenté car non compatible avec CardView standard -->
+        <!-- <item name="shapeAppearance">@style/ShapeAppearance.EnfantApp.LargeComponent</item> -->
+        <item name="android:checkable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <!-- Style pour le dessin -->
+    <style name="Widget.EnfantApp.DrawingView" parent="">
+        <item name="android:background">@color/drawing_background</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:clipChildren">false</item>
+    </style>
+    
+    <!-- Styles de texte manquants référencés dans styles.xml -->
+    <style name="TextAppearance.EnfantApp.Headline6" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <style name="TextAppearance.EnfantApp.Subtitle2" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/on_surface_medium</item>
+    </style>
+</resources>

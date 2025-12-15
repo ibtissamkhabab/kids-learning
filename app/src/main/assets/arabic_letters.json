@@ -1,0 +1,145 @@
+{
+  "alphabet": "arabic",
+  "letters": [
+    {
+      "character": "ا",
+      "name": "alif",
+      "soundFile": "alif.mp3"
+    },
+    {
+      "character": "ب",
+      "name": "ba",
+      "soundFile": "ba.mp3"
+    },
+    {
+      "character": "ت",
+      "name": "ta",
+      "soundFile": "ta.mp3"
+    },
+    {
+      "character": "ث",
+      "name": "tha",
+      "soundFile": "tha.mp3"
+    },
+    {
+      "character": "ج",
+      "name": "jim",
+      "soundFile": "jim.mp3"
+    },
+    {
+      "character": "ح",
+      "name": "ha",
+      "soundFile": "ha.mp3"
+    },
+    {
+      "character": "خ",
+      "name": "kha",
+      "soundFile": "kha.mp3"
+    },
+    {
+      "character": "د",
+      "name": "dal",
+      "soundFile": "dal.mp3"
+    },
+    {
+      "character": "ذ",
+      "name": "dhal",
+      "soundFile": "dhal.mp3"
+    },
+    {
+      "character": "ر",
+      "name": "ra",
+      "soundFile": "ra.mp3"
+    },
+    {
+      "character": "ز",
+      "name": "zay",
+      "soundFile": "zay.mp3"
+    },
+    {
+      "character": "س",
+      "name": "sin",
+      "soundFile": "sin.mp3"
+    },
+    {
+      "character": "ش",
+      "name": "shin",
+      "soundFile": "shin.mp3"
+    },
+    {
+      "character": "ص",
+      "name": "sad",
+      "soundFile": "sad.mp3"
+    },
+    {
+      "character": "ض",
+      "name": "dad",
+      "soundFile": "dad.mp3"
+    },
+    {
+      "character": "ط",
+      "name": "ta",
+      "soundFile": "ta2.mp3"
+    },
+    {
+      "character": "ظ",
+      "name": "za",
+      "soundFile": "za.mp3"
+    },
+    {
+      "character": "ع",
+      "name": "ayn",
+      "soundFile": "ayn.mp3"
+    },
+    {
+      "character": "غ",
+      "name": "ghayn",
+      "soundFile": "ghayn.mp3"
+    },
+    {
+      "character": "ف",
+      "name": "fa",
+      "soundFile": "fa.mp3"
+    },
+    {
+      "character": "ق",
+      "name": "qaf",
+      "soundFile": "qaf.mp3"
+    },
+    {
+      "character": "ك",
+      "name": "kaf",
+      "soundFile": "kaf.mp3"
+    },
+    {
+      "character": "ل",
+      "name": "lam",
+      "soundFile": "lam.mp3"
+    },
+    {
+      "character": "م",
+      "name": "mim",
+      "soundFile": "mim.mp3"
+    },
+    {
+      "character": "ن",
+      "name": "nun",
+      "soundFile": "nun.mp3"
+    },
+    {
+      "character": "ه",
+      "name": "ha",
+      "soundFile": "ha2.mp3"
+    },
+    {
+      "character": "و",
+      "name": "waw",
+      "soundFile": "waw.mp3"
+    },
+    {
+      "character": "ي",
+      "name": "ya",
+      "soundFile": "ya.mp3"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espacements standards -->
+    <dimen name="spacing_none">0dp</dimen>
+    <dimen name="spacing_extra_small">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_extra_large">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="spacing_xxxl">64dp</dimen>
+
+    <!-- Tailles d'éléments -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_min_width">88dp</dimen>
+    <dimen name="button_padding_horizontal">24dp</dimen>
+    <dimen name="button_radius">24dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+
+    <!-- Cartes -->
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+
+    <!-- Bordures -->
+    <dimen name="border_thin">1dp</dimen>
+    <dimen name="border_medium">2dp</dimen>
+    <dimen name="border_thick">4dp</dimen>
+
+    <!-- Icônes -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_xlarge">48dp</dimen>
+    <dimen name="icon_size_xxlarge">64dp</dimen>
+
+    <!-- Texte -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xxlarge">24sp</dimen>
+    <dimen name="text_size_display1">34sp</dimen>
+    <dimen name="text_size_display2">45sp</dimen>
+    <dimen name="text_size_display3">56sp</dimen>
+    <dimen name="text_size_display4">112sp</dimen>
+
+    <!-- Hauteur des éléments -->
+    <dimen name="toolbar_height">?attr/actionBarSize</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Rayons des coins -->
+    <dimen name="radius_small">4dp</dimen>
+    <dimen name="radius_medium">8dp</dimen>
+    <dimen name="radius_large">12dp</dimen>
+    <dimen name="radius_xlarge">16dp</dimen>
+    <dimen name="radius_round">50%</dimen>
+
+    <!-- Marges -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+
+    <!-- Élévation -->
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_xlarge">16dp</dimen>
+
+    <!-- Dimensions spécifiques à l'application -->
+    <dimen name="letter_size">72sp</dimen>
+    <dimen name="letter_spacing">0.1</dimen>
+    <dimen name="drawing_stroke_width">8dp</dimen>
+    <dimen name="alphabet_grid_spacing">8dp</dimen>
+    <dimen name="alphabet_item_size">80dp</dimen>
+    <dimen name="home_card_height">160dp</dimen>
+    <dimen name="home_card_elevation">4dp</dimen>
+    <dimen name="home_card_corner_radius">12dp</dimen>
+    <dimen name="dialog_min_width">280dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+</resources>

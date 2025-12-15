@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attributs globaux (définis une seule fois) -->
+    <attr name="letter" format="string" />
+    <attr name="animationDuration" format="integer" />
+    <attr name="animationInterpolator" format="reference" />
+    <attr name="animationStartDelay" format="integer" />
+    <attr name="transitionName" format="string" />
+    <attr name="transitionGroup" format="boolean" />
+    <attr name="transitionDuration" format="integer" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="elevation" format="dimension" />
+
+    <!-- Attributs personnalisés pour DrawingView -->
+    <declare-styleable name="DrawingView">
+        <attr name="drawingColor" format="color" />
+        <attr name="drawingWidth" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="showGuide" format="boolean" />
+        <attr name="guideColor" format="color" />
+        <attr name="guideWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- Attributs personnalisés pour LetterView -->
+    <declare-styleable name="LetterView">
+        <attr name="letter" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="showAnimation" format="boolean" />
+        <attr name="animationDuration" />
+    </declare-styleable>
+
+    <!-- Attributs personnalisés pour AlphabetGrid -->
+    <declare-styleable name="AlphabetGrid">
+        <attr name="columnCount" format="integer" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="itemCornerRadius" format="dimension" />
+        <attr name="itemBackground" format="reference" />
+        <attr name="itemElevation" format="dimension" />
+    </declare-styleable>
+
+    <!-- Attributs personnalisés pour DrawingButton -->
+    <declare-styleable name="DrawingButton">
+        <attr name="icon" format="reference" />
+        <attr name="iconTint" format="color" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="iconPadding" format="dimension" />
+        <attr name="cornerRadius" />
+        <attr name="elevation" />
+    </declare-styleable>
+
+    <!-- Attributs personnalisés pour LetterCard -->
+    <declare-styleable name="LetterCard">
+        <attr name="letter" />
+        <attr name="showSoundButton" format="boolean" />
+        <attr name="showDrawingButton" format="boolean" />
+        <attr name="cardElevation" format="dimension" />
+        <attr name="cardCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <!-- Attributs pour le thème -->
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorSurface" format="color" />
+    <attr name="colorOnSurface" format="color" />
+    <attr name="colorError" format="color" />
+    <attr name="colorOnError" format="color" />
+</resources>

@@ -1,0 +1,135 @@
+{
+  "alphabet": "french",
+  "letters": [
+    {
+      "character": "A",
+      "name": "a",
+      "soundFile": "a.mp3"
+    },
+    {
+      "character": "B",
+      "name": "bé",
+      "soundFile": "b.mp3"
+    },
+    {
+      "character": "C",
+      "name": "cé",
+      "soundFile": "c.mp3"
+    },
+    {
+      "character": "D",
+      "name": "dé",
+      "soundFile": "d.mp3"
+    },
+    {
+      "character": "E",
+      "name": "e",
+      "soundFile": "e.mp3"
+    },
+    {
+      "character": "F",
+      "name": "effe",
+      "soundFile": "f.mp3"
+    },
+    {
+      "character": "G",
+      "name": "gé",
+      "soundFile": "g.mp3"
+    },
+    {
+      "character": "H",
+      "name": "hache",
+      "soundFile": "h.mp3"
+    },
+    {
+      "character": "I",
+      "name": "i",
+      "soundFile": "i.mp3"
+    },
+    {
+      "character": "J",
+      "name": "ji",
+      "soundFile": "j.mp3"
+    },
+    {
+      "character": "K",
+      "name": "ka",
+      "soundFile": "k.mp3"
+    },
+    {
+      "character": "L",
+      "name": "elle",
+      "soundFile": "l.mp3"
+    },
+    {
+      "character": "M",
+      "name": "emme",
+      "soundFile": "m.mp3"
+    },
+    {
+      "character": "N",
+      "name": "enne",
+      "soundFile": "n.mp3"
+    },
+    {
+      "character": "O",
+      "name": "o",
+      "soundFile": "o.mp3"
+    },
+    {
+      "character": "P",
+      "name": "pé",
+      "soundFile": "p.mp3"
+    },
+    {
+      "character": "Q",
+      "name": "ku",
+      "soundFile": "q.mp3"
+    },
+    {
+      "character": "R",
+      "name": "erre",
+      "soundFile": "r.mp3"
+    },
+    {
+      "character": "S",
+      "name": "esse",
+      "soundFile": "s.mp3"
+    },
+    {
+      "character": "T",
+      "name": "té",
+      "soundFile": "t.mp3"
+    },
+    {
+      "character": "U",
+      "name": "u",
+      "soundFile": "u.mp3"
+    },
+    {
+      "character": "V",
+      "name": "vé",
+      "soundFile": "v.mp3"
+    },
+    {
+      "character": "W",
+      "name": "double vé",
+      "soundFile": "w.mp3"
+    },
+    {
+      "character": "X",
+      "name": "ixe",
+      "soundFile": "x.mp3"
+    },
+    {
+      "character": "Y",
+      "name": "i grec",
+      "soundFile": "y.mp3"
+    },
+    {
+      "character": "Z",
+      "name": "zède",
+      "soundFile": "z.mp3"
+    }
+  ]
+}

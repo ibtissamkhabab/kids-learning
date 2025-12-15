@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Palette de couleurs principale -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!-- Couleurs de l'interface utilisateur -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#212121</color>
+    <color name="on_surface_medium">#757575</color>
+    <color name="on_surface_light">#BDBDBD</color>
+    
+    <!-- Couleurs des lettres -->
+    <color name="letter_color">#212121</color>
+    <color name="letter_background">#FFFFFF</color>
+    
+    <!-- Couleurs des boutons -->
+    <color name="button_primary">#3F51B5</color>
+    <color name="button_primary_text">#FFFFFF</color>
+    <color name="button_secondary">#E0E0E0</color>
+    <color name="button_secondary_text">#212121</color>
+    
+    <!-- Couleurs de rétroaction -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FFC107</color>
+    <color name="info">#2196F3</color>
+    <color name="red">#F44336</color>  <!-- Rouge vif pour les éléments importants -->
+    
+    <!-- Couleurs du thème sombre -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_on_surface">#E0E0E0</color>
+    
+    <!-- Couleurs spécifiques à l'application -->
+    <color name="french_blue">#2196F3</color>
+    <color name="arabic_green">#4CAF50</color>
+    <color name="drawing_path">#3F51B5</color>
+    <color name="drawing_background">#FFFFFF</color>
+    
+    <!-- Couleurs des contours -->
+    <color name="outline">#1F000000</color>
+</resources>

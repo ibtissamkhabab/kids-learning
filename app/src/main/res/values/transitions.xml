@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Transition de base -->
+    <integer name="transition_duration">300</integer>
+    
+    <!-- Transitions pour les fragments -->
+    <integer name="fragment_enter">@android:integer/config_mediumAnimTime</integer>
+    <integer name="fragment_exit">@android:integer/config_mediumAnimTime</integer>
+    <integer name="fragment_pop_enter">@android:integer/config_mediumAnimTime</integer>
+    <integer name="fragment_pop_exit">@android:integer/config_mediumAnimTime</integer>
+    
+    <!-- Transitions partagées -->
+    <string name="transition_letter">transition_letter</string>
+    <string name="transition_background">transition_background</string>
+    
+    <!-- Délais de transition -->
+    <integer name="transition_delay_short">50</integer>
+    <integer name="transition_delay_medium">100</integer>
+    <integer name="transition_delay_long">150</integer>
+    
+    <!-- Chemins de transition -->
+    <string name="transition_path">android:translationX,android:translationY</string>
+    
+    <!-- Propriétés de transition -->
+    <string name="transition_properties">
+        android:translationX,
+        android:translationY,
+        android:scaleX,
+        android:scaleY,
+        android:rotation,
+        android:rotationX,
+        android:rotationY,
+        android:alpha
+    </string>
+    
+    <!-- Noms de transition pour animations partagées -->
+    <string name="transition_name_letter">letter_transition</string>
+    <string name="transition_name_card">card_transition</string>
+</resources>
